@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap'
 import Main from './components/Main.vue'
 import Experiencia from './components/Experiencia.vue'
+import Habilidades from './components/Habilidades.vue'
 
 Vue.use(VueRouter)
 
@@ -16,6 +17,9 @@ const router = new VueRouter({
   }, {
     path: '/experiencia',
     component: Experiencia
+  }, {
+    path: '/habilidades',
+    component: Habilidades
   }]
 
 })

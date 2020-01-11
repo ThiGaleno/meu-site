@@ -20,4 +20,7 @@ export default {
 #app {
   color: #2c3e50;
 }
+h1 {
+  text-align: center;
+}
 </style>
