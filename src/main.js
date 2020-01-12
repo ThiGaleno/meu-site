@@ -7,20 +7,34 @@ import 'bootstrap/dist/js/bootstrap'
 import Main from './components/Main.vue'
 import Experiencia from './components/Experiencia.vue'
 import Habilidades from './components/Habilidades.vue'
+import Cursos from './components/Cursos.vue'
+import Livros from './components/Livros.vue'
+
 
 Vue.use(VueRouter)
 
 const router = new VueRouter({
   routes: [{
-    path: '/',
-    component: Main
-  }, {
-    path: '/experiencia',
-    component: Experiencia
-  }, {
-    path: '/habilidades',
-    component: Habilidades
-  }]
+      path: '/',
+      component: Main
+    },
+    {
+      path: '/experiencia',
+      component: Experiencia
+    },
+    {
+      path: '/habilidades',
+      component: Habilidades
+    },
+    {
+      path: '/cursos',
+      component: Cursos
+    },
+    {
+      path: '/livros',
+      component: Livros
+    }
+  ]
 
 })
 

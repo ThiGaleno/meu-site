@@ -10,13 +10,22 @@
             <i class="principais fa fa-check"></i>PHP
           </li>
           <li>
-            <i class="principais fa fa-check"></i>PHP
+            <i class="principais fa fa-check"></i>Laravel
           </li>
           <li>
-            <i class="principais fa fa-check"></i>PHP
+            <i class="principais fa fa-check"></i>MySql
           </li>
           <li>
-            <i class="principais fa fa-check"></i>PHP
+            <i class="principais fa fa-check"></i>Bootstrap
+          </li>
+          <li>
+            <i class="principais fa fa-check"></i>HTML
+          </li>
+          <li>
+            <i class="principais fa fa-check"></i>GitHub
+          </li>
+          <li>
+            <i class="principais fa fa-check"></i>Photoshop
           </li>
         </ul>
       </div>
@@ -25,16 +34,13 @@
         <h5>Secundárias</h5>
         <ul>
           <li>
-            <i class="secundarias fa fa-check"></i>PHP
+            <i class="secundarias fa fa-check"></i>Javascript
           </li>
           <li>
-            <i class="secundarias fa fa-check"></i>PHP
+            <i class="secundarias fa fa-check"></i>JQuery
           </li>
           <li>
-            <i class="secundarias fa fa-check"></i>PHP
-          </li>
-          <li>
-            <i class="secundarias fa fa-check"></i>PHP
+            <i class="secundarias fa fa-check"></i>CSS
           </li>
         </ul>
       </div>
@@ -42,16 +48,16 @@
         <h5>Aprendendo</h5>
         <ul>
           <li>
-            <i class="aprendendo fa fa-check"></i>PHP
+            <i class="aprendendo fa fa-check"></i>VueJs
           </li>
           <li>
-            <i class="aprendendo fa fa-check"></i>PHP
+            <i class="aprendendo fa fa-check"></i>NPM
           </li>
           <li>
-            <i class="aprendendo fa fa-check"></i>PHP
+            <i class="aprendendo fa fa-check"></i>API
           </li>
           <li>
-            <i class="aprendendo fa fa-check"></i>PHP
+            <i class="aprendendo fa fa-check"></i>AJAX
           </li>
         </ul>
       </div>
@@ -118,15 +124,18 @@ ul {
   height: 200px;
   width: 200px;
   padding: 15px;
+  filter: grayscale(100%);
 }
+.habilidades img:hover {
+  filter: grayscale(0%);
+  transition-duration: 1s;
+}
+
 .logo-skills {
   text-align: center;
 }
-.habilidades li {
-  text-align: center;
-}
+
 .habilidades h5 {
-  text-align: center;
-  padding-left: 50px;
+  padding-left: 40px;
 }
 </style>
