@@ -9,6 +9,7 @@ import Experiencia from './components/Experiencia.vue'
 import Habilidades from './components/Habilidades.vue'
 import Cursos from './components/Cursos.vue'
 import Livros from './components/Livros.vue'
+import Pessoal from './components/Pessoal.vue'
 
 
 Vue.use(VueRouter)
@@ -33,6 +34,10 @@ const router = new VueRouter({
     {
       path: '/livros',
       component: Livros
+    },
+    {
+      path: '/vida-pessoal',
+      component: Pessoal
     }
   ]
 
@@ -41,6 +46,10 @@ const router = new VueRouter({
 Vue.config.productionTip = false
 
 new Vue({
+  data: {
+
+    info: ''
+  },
   router,
   render: h => h(App),
 }).$mount('#app')

@@ -133,6 +133,5 @@
 .livros div {
   text-align: center;
 }
-.livros img {
-}
+
 </style>

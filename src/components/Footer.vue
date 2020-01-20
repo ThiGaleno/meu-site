@@ -1,6 +1,6 @@
 <template>
   <div class="container footer">
-    <p>Desenvolvimento exclusivamente por Thiago c. Galeno</p>
+    <p>Desenvolvimento exclusivamente por Thiago C. Galeno</p>
   </div>
 </template>
 

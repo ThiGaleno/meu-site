@@ -3,9 +3,10 @@
     <div class="container">
       <div class="row" id="banner">
         <div class="col-md-4 texto-escuro" id="perfil">
-          <img alt="Vue logo" src="../assets/thiago.png" />
+          <img alt="Vue logo" v-bind:src="info.avatar_url" />
           <br />27 anos
-          <br />Ceilândia-DF
+          <br />
+          {{info.location}} - DF
           <br />
 
           <a class="texto-escuro" href="tel:61993907706">
@@ -15,7 +16,9 @@
 
         <div class="col-md-8">
           <div>
-            <h1 class="texto-claro">Thiago Galeno</h1>
+            <div>
+              <h1 class="texto-claro">{{ info.name }}</h1>
+            </div>
             <h5 class="texto-escuro">Desenvolvedor PHP</h5>
           </div>
           <div>
@@ -28,10 +31,11 @@
                   <i class="fa fa-linkedin-square fa-2x"></i>
                 </a>
               </div>
-              <div class="col-3 col-lg-1">
-                <a href="https://github.com/ThiGaleno" target="blank">
+              <div class="col-3 col-lg-1" title="Quantidade de repositórios públicos">
+                <a v-bind:href="info.html_url" target="blank">
                   <i class="fa fa-github fa-2x"></i>
                 </a>
+                <span class="badge badge-light">{{info.public_repos}}</span>
               </div>
               <div class="col-3 col-lg-1">
                 <a href="mailto:thiagogaleno1301@hotmail.com">
@@ -53,6 +57,26 @@
 </template>
 
 <script>
+import axios from "axios";
+
+export default {
+  data() {
+    return {
+      info: []
+    };
+  },
+  mounted() {
+    axios
+      .get("https://api.github.com/users/thigaleno")
+      .then(response => {
+        window.console.log(response.data);
+        this.info = response.data;
+      })
+      .catch(err => {
+        return err;
+      });
+  }
+};
 </script>
 
 <style>
