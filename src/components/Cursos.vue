@@ -8,20 +8,22 @@
     <ul>
       <li>
         <h6>Centro Universitário IESB - Instituto de Educação Superior de Brasília</h6>
-        <h6>03/2013 a 12/2013</h6>
+        <h6>01/2015 a 07/2017</h6>
       </li>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos corporis quae et, voluptatum sunt deserunt, atque culpa provident ex aut deleniti nesciunt ipsa quo laborum recusandae beatae ipsum neque eaque?</p>
+      <p></p>
     </ul>
     <hr />
     <h4>
-      <img class="icone-cursos" src="../assets/logo-udemy.png" />Criando um projeto Laravel do zero
+      <img class="icone-cursos" src="../assets/logo-udemy.png" />Introdução ao Laravel
     </h4>
     <ul>
       <li>
         <h6>Udemy</h6>
-        <h6>03/2013 a 12/2013</h6>
       </li>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos corporis quae et, voluptatum sunt deserunt, atque culpa provident ex aut deleniti nesciunt ipsa quo laborum recusandae beatae ipsum neque eaque?</p>
+      <p>
+        Curso de Introdução ao laravel da Udemy, com 4h30 de duração.
+        <br />Estou em contato com o suporte pois não consegui gerar o certificado.
+      </p>
     </ul>
     <hr />
     <h4>
@@ -30,9 +32,20 @@
     <ul>
       <li>
         <h6>RocketSeat</h6>
-        <h6>03/2013 a 12/2013</h6>
       </li>
-      <p>Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla voluptatem, repudiandae nam eius qui dignissimos laboriosam architecto sunt reiciendis, minima cum distinctio animi atque. Eius consectetur ipsum modi. Similique, adipisci. ipsum dolor sit amet consectetur adipisicing elit. Eos corporis quae et, voluptatum sunt deserunt, atque culpa provident ex aut deleniti nesciunt ipsa quo laborum recusandae beatae ipsum neque eaque?</p>
+      <p>Curso Starter de Javascript da Rocketseat, não gera certificado.</p>
+    </ul>
+    <hr />
+    <ul>
+      <li>
+        <h4>Próxima atualização</h4>
+      </li>
+      <p>Em breve atualizarei as informações sobre os cursos que completei sobre:</p>
+      <p>
+        Empreendedorismo e inteligência emocional
+        <br />Trabalhando com equipes
+        <br />Resolução de conflitos
+      </p>
     </ul>
   </div>
 </template>

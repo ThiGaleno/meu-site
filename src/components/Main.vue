@@ -6,7 +6,7 @@
           <img alt="Vue logo" v-bind:src="info.avatar_url" />
           <br />27 anos
           <br />
-          {{info.location}} - DF
+          {{info.location}}
           <br />
 
           <a class="texto-escuro" href="tel:61993907706">
@@ -22,9 +22,15 @@
             <h5 class="texto-escuro">Desenvolvedor PHP</h5>
           </div>
           <div>
-            <p
-              class="texto-claro descricao"
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, dignissimos? Et at quasi quisquam. Quibusdam doloribus incidunt adipisci itaque libero, necessitatibus culpa quaerat iure delectus odio repellendus ipsa velit vel. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor laboriosam possimus cum qui fuga iste consectetur laudantium non? Optio officiis culpa, excepturi fuga pariatur consequuntur delectus sunt voluptatum voluptate libero. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi qui obcaecati, aperiam assumenda officiis, illo eligendi nesciunt beatae natus minima iste, excepturi suscipit totam harum quis id vero aliquam facilis.</p>
+            <div class="texto-claro descricao">
+              <p>{{info.bio}}</p>
+              <p>
+                Boa comunicação oral e escrita, inglês razoável, entre o básico e o intermediário,
+                me considero uma pessoa orientada a resolução de problemas e
+                gosto da otimização de processos e tarefas. .
+              </p>
+            </div>
+
             <div class="social row">
               <div class="col-3 col-lg-1">
                 <a href="https://www.linkedin.com/in/thiagogaleno/" target="blank">
@@ -82,7 +88,7 @@ export default {
 <style>
 section {
   background-color: #35495e;
-  padding: 50px 0 50px 0;
+  padding: 30px 0 50px 0;
 }
 #perfil {
   display: block;

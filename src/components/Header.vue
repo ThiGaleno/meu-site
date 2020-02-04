@@ -30,9 +30,11 @@
               <span class="nav-link">Livros</span>
             </li>
           </router-link>
-          <router-link to="/vida-pessoal">
+          <router-link to="#">
             <li class="nav-item">
-              <span class="nav-link">Pessoal</span>
+              <span class="nav-link">
+                <del>Pessoal</del>
+              </span>
             </li>
           </router-link>
         </ul>
